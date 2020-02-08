@@ -1,9 +1,10 @@
 [package]
 name = "rfi-rs"
 version = "0.1.0"
-authors = ["William Ferreira <wqferr@gmail.com>"]
+authors = ["William Ferreira <wqferr@gmail.com>", "Bruno Larsen <PLACEHOLDER@PLACEHOLDER.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+regex = "1"
+lazy_static = "1.4"
+rand = "0.7"
