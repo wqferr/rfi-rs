@@ -1,0 +1,9 @@
+[package]
+name = "rfi-rs"
+version = "0.1.0"
+authors = ["William Ferreira <wqferr@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
