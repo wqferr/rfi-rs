@@ -3,6 +3,7 @@ extern crate rand;
 extern crate regex;
 
 mod dice;
+
 use dice::Dicepool;
 use std::env::args;
 
