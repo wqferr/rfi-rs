@@ -4,9 +4,11 @@ extern crate regex;
 
 mod dice;
 use dice::Dicepool;
+use std::env::args;
 
 fn main() {
-    match Dicepool::from_description("3d20") {
+    let description = args().nth(1).unwrap_or(String::from("1d20"));
+    match Dicepool::from_description(&description) {
         Ok(dicepool) => {
             println!("{:?}", dicepool);
             println!("{:?}", dicepool.roll());
